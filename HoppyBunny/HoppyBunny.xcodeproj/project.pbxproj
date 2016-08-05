@@ -7,70 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2333F83E1D546E6B00BF4FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333F83D1D546E6B00BF4FDB /* AppDelegate.swift */; };
-		2333F8401D546E6B00BF4FDB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2333F83F1D546E6B00BF4FDB /* art.scnassets */; };
-		2333F8421D546E6B00BF4FDB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333F8411D546E6B00BF4FDB /* GameViewController.swift */; };
-		2333F8451D546E6B00BF4FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2333F8431D546E6B00BF4FDB /* Main.storyboard */; };
-		2333F8471D546E6B00BF4FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2333F8461D546E6B00BF4FDB /* Assets.xcassets */; };
-		2333F84A1D546E6B00BF4FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2333F8481D546E6B00BF4FDB /* LaunchScreen.storyboard */; };
-		2333F8551D546E6B00BF4FDB /* HoppyBunnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333F8541D546E6B00BF4FDB /* HoppyBunnyTests.swift */; };
-		2333F8601D546E6B00BF4FDB /* HoppyBunnyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333F85F1D546E6B00BF4FDB /* HoppyBunnyUITests.swift */; };
-		2333F8701D546F7600BF4FDB /* sfx_flap.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2333F86E1D546F7600BF4FDB /* sfx_flap.caf */; };
-		2333F8711D546F7600BF4FDB /* sfx_goal.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2333F86F1D546F7600BF4FDB /* sfx_goal.caf */; };
+		2333F87F1D54741000BF4FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333F87E1D54741000BF4FDB /* AppDelegate.swift */; };
+		2333F8811D54741000BF4FDB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2333F8801D54741000BF4FDB /* GameScene.sks */; };
+		2333F8831D54741000BF4FDB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333F8821D54741000BF4FDB /* GameScene.swift */; };
+		2333F8851D54741000BF4FDB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333F8841D54741000BF4FDB /* GameViewController.swift */; };
+		2333F8881D54741000BF4FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2333F8861D54741000BF4FDB /* Main.storyboard */; };
+		2333F88A1D54741000BF4FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2333F8891D54741000BF4FDB /* Assets.xcassets */; };
+		2333F88D1D54741000BF4FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2333F88B1D54741000BF4FDB /* LaunchScreen.storyboard */; };
+		2333F8981D54741000BF4FDB /* HoppyBunnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333F8971D54741000BF4FDB /* HoppyBunnyTests.swift */; };
+		2333F8A31D54741000BF4FDB /* HoppyBunnyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333F8A21D54741000BF4FDB /* HoppyBunnyUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2333F8511D546E6B00BF4FDB /* PBXContainerItemProxy */ = {
+		2333F8941D54741000BF4FDB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2333F8321D546E6A00BF4FDB /* Project object */;
+			containerPortal = 2333F8731D54741000BF4FDB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2333F8391D546E6B00BF4FDB;
+			remoteGlobalIDString = 2333F87A1D54741000BF4FDB;
 			remoteInfo = HoppyBunny;
 		};
-		2333F85C1D546E6B00BF4FDB /* PBXContainerItemProxy */ = {
+		2333F89F1D54741000BF4FDB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2333F8321D546E6A00BF4FDB /* Project object */;
+			containerPortal = 2333F8731D54741000BF4FDB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2333F8391D546E6B00BF4FDB;
+			remoteGlobalIDString = 2333F87A1D54741000BF4FDB;
 			remoteInfo = HoppyBunny;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2333F83A1D546E6B00BF4FDB /* HoppyBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoppyBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2333F83D1D546E6B00BF4FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2333F83F1D546E6B00BF4FDB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		2333F8411D546E6B00BF4FDB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		2333F8441D546E6B00BF4FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2333F8461D546E6B00BF4FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2333F8491D546E6B00BF4FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2333F84B1D546E6B00BF4FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2333F8501D546E6B00BF4FDB /* HoppyBunnyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoppyBunnyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2333F8541D546E6B00BF4FDB /* HoppyBunnyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoppyBunnyTests.swift; sourceTree = "<group>"; };
-		2333F8561D546E6B00BF4FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2333F85B1D546E6B00BF4FDB /* HoppyBunnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoppyBunnyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2333F85F1D546E6B00BF4FDB /* HoppyBunnyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoppyBunnyUITests.swift; sourceTree = "<group>"; };
-		2333F8611D546E6B00BF4FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2333F86E1D546F7600BF4FDB /* sfx_flap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_flap.caf; sourceTree = "<group>"; };
-		2333F86F1D546F7600BF4FDB /* sfx_goal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_goal.caf; sourceTree = "<group>"; };
+		2333F87B1D54741000BF4FDB /* HoppyBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoppyBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2333F87E1D54741000BF4FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2333F8801D54741000BF4FDB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2333F8821D54741000BF4FDB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2333F8841D54741000BF4FDB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2333F8871D54741000BF4FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2333F8891D54741000BF4FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2333F88C1D54741000BF4FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2333F88E1D54741000BF4FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2333F8931D54741000BF4FDB /* HoppyBunnyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoppyBunnyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2333F8971D54741000BF4FDB /* HoppyBunnyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoppyBunnyTests.swift; sourceTree = "<group>"; };
+		2333F8991D54741000BF4FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2333F89E1D54741000BF4FDB /* HoppyBunnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoppyBunnyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2333F8A21D54741000BF4FDB /* HoppyBunnyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoppyBunnyUITests.swift; sourceTree = "<group>"; };
+		2333F8A41D54741000BF4FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2333F8371D546E6B00BF4FDB /* Frameworks */ = {
+		2333F8781D54741000BF4FDB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2333F84D1D546E6B00BF4FDB /* Frameworks */ = {
+		2333F8901D54741000BF4FDB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2333F8581D546E6B00BF4FDB /* Frameworks */ = {
+		2333F89B1D54741000BF4FDB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,78 +78,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2333F8311D546E6A00BF4FDB = {
+		2333F8721D54741000BF4FDB = {
 			isa = PBXGroup;
 			children = (
-				2333F83C1D546E6B00BF4FDB /* HoppyBunny */,
-				2333F8531D546E6B00BF4FDB /* HoppyBunnyTests */,
-				2333F85E1D546E6B00BF4FDB /* HoppyBunnyUITests */,
-				2333F83B1D546E6B00BF4FDB /* Products */,
+				2333F87D1D54741000BF4FDB /* HoppyBunny */,
+				2333F8961D54741000BF4FDB /* HoppyBunnyTests */,
+				2333F8A11D54741000BF4FDB /* HoppyBunnyUITests */,
+				2333F87C1D54741000BF4FDB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2333F83B1D546E6B00BF4FDB /* Products */ = {
+		2333F87C1D54741000BF4FDB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2333F83A1D546E6B00BF4FDB /* HoppyBunny.app */,
-				2333F8501D546E6B00BF4FDB /* HoppyBunnyTests.xctest */,
-				2333F85B1D546E6B00BF4FDB /* HoppyBunnyUITests.xctest */,
+				2333F87B1D54741000BF4FDB /* HoppyBunny.app */,
+				2333F8931D54741000BF4FDB /* HoppyBunnyTests.xctest */,
+				2333F89E1D54741000BF4FDB /* HoppyBunnyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2333F83C1D546E6B00BF4FDB /* HoppyBunny */ = {
+		2333F87D1D54741000BF4FDB /* HoppyBunny */ = {
 			isa = PBXGroup;
 			children = (
-				2333F83D1D546E6B00BF4FDB /* AppDelegate.swift */,
-				2333F83F1D546E6B00BF4FDB /* art.scnassets */,
-				2333F8411D546E6B00BF4FDB /* GameViewController.swift */,
-				2333F8431D546E6B00BF4FDB /* Main.storyboard */,
-				2333F8461D546E6B00BF4FDB /* Assets.xcassets */,
-				2333F86D1D546F7600BF4FDB /* SFX */,
-				2333F8481D546E6B00BF4FDB /* LaunchScreen.storyboard */,
-				2333F84B1D546E6B00BF4FDB /* Info.plist */,
+				2333F87E1D54741000BF4FDB /* AppDelegate.swift */,
+				2333F8801D54741000BF4FDB /* GameScene.sks */,
+				2333F8821D54741000BF4FDB /* GameScene.swift */,
+				2333F8841D54741000BF4FDB /* GameViewController.swift */,
+				2333F8861D54741000BF4FDB /* Main.storyboard */,
+				2333F8891D54741000BF4FDB /* Assets.xcassets */,
+				2333F88B1D54741000BF4FDB /* LaunchScreen.storyboard */,
+				2333F88E1D54741000BF4FDB /* Info.plist */,
 			);
 			path = HoppyBunny;
 			sourceTree = "<group>";
 		};
-		2333F8531D546E6B00BF4FDB /* HoppyBunnyTests */ = {
+		2333F8961D54741000BF4FDB /* HoppyBunnyTests */ = {
 			isa = PBXGroup;
 			children = (
-				2333F8541D546E6B00BF4FDB /* HoppyBunnyTests.swift */,
-				2333F8561D546E6B00BF4FDB /* Info.plist */,
+				2333F8971D54741000BF4FDB /* HoppyBunnyTests.swift */,
+				2333F8991D54741000BF4FDB /* Info.plist */,
 			);
 			path = HoppyBunnyTests;
 			sourceTree = "<group>";
 		};
-		2333F85E1D546E6B00BF4FDB /* HoppyBunnyUITests */ = {
+		2333F8A11D54741000BF4FDB /* HoppyBunnyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2333F85F1D546E6B00BF4FDB /* HoppyBunnyUITests.swift */,
-				2333F8611D546E6B00BF4FDB /* Info.plist */,
+				2333F8A21D54741000BF4FDB /* HoppyBunnyUITests.swift */,
+				2333F8A41D54741000BF4FDB /* Info.plist */,
 			);
 			path = HoppyBunnyUITests;
-			sourceTree = "<group>";
-		};
-		2333F86D1D546F7600BF4FDB /* SFX */ = {
-			isa = PBXGroup;
-			children = (
-				2333F86E1D546F7600BF4FDB /* sfx_flap.caf */,
-				2333F86F1D546F7600BF4FDB /* sfx_goal.caf */,
-			);
-			path = SFX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2333F8391D546E6B00BF4FDB /* HoppyBunny */ = {
+		2333F87A1D54741000BF4FDB /* HoppyBunny */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2333F8641D546E6B00BF4FDB /* Build configuration list for PBXNativeTarget "HoppyBunny" */;
+			buildConfigurationList = 2333F8A71D54741000BF4FDB /* Build configuration list for PBXNativeTarget "HoppyBunny" */;
 			buildPhases = (
-				2333F8361D546E6B00BF4FDB /* Sources */,
-				2333F8371D546E6B00BF4FDB /* Frameworks */,
-				2333F8381D546E6B00BF4FDB /* Resources */,
+				2333F8771D54741000BF4FDB /* Sources */,
+				2333F8781D54741000BF4FDB /* Frameworks */,
+				2333F8791D54741000BF4FDB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -159,69 +148,69 @@
 			);
 			name = HoppyBunny;
 			productName = HoppyBunny;
-			productReference = 2333F83A1D546E6B00BF4FDB /* HoppyBunny.app */;
+			productReference = 2333F87B1D54741000BF4FDB /* HoppyBunny.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2333F84F1D546E6B00BF4FDB /* HoppyBunnyTests */ = {
+		2333F8921D54741000BF4FDB /* HoppyBunnyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2333F8671D546E6B00BF4FDB /* Build configuration list for PBXNativeTarget "HoppyBunnyTests" */;
+			buildConfigurationList = 2333F8AA1D54741000BF4FDB /* Build configuration list for PBXNativeTarget "HoppyBunnyTests" */;
 			buildPhases = (
-				2333F84C1D546E6B00BF4FDB /* Sources */,
-				2333F84D1D546E6B00BF4FDB /* Frameworks */,
-				2333F84E1D546E6B00BF4FDB /* Resources */,
+				2333F88F1D54741000BF4FDB /* Sources */,
+				2333F8901D54741000BF4FDB /* Frameworks */,
+				2333F8911D54741000BF4FDB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2333F8521D546E6B00BF4FDB /* PBXTargetDependency */,
+				2333F8951D54741000BF4FDB /* PBXTargetDependency */,
 			);
 			name = HoppyBunnyTests;
 			productName = HoppyBunnyTests;
-			productReference = 2333F8501D546E6B00BF4FDB /* HoppyBunnyTests.xctest */;
+			productReference = 2333F8931D54741000BF4FDB /* HoppyBunnyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2333F85A1D546E6B00BF4FDB /* HoppyBunnyUITests */ = {
+		2333F89D1D54741000BF4FDB /* HoppyBunnyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2333F86A1D546E6B00BF4FDB /* Build configuration list for PBXNativeTarget "HoppyBunnyUITests" */;
+			buildConfigurationList = 2333F8AD1D54741000BF4FDB /* Build configuration list for PBXNativeTarget "HoppyBunnyUITests" */;
 			buildPhases = (
-				2333F8571D546E6B00BF4FDB /* Sources */,
-				2333F8581D546E6B00BF4FDB /* Frameworks */,
-				2333F8591D546E6B00BF4FDB /* Resources */,
+				2333F89A1D54741000BF4FDB /* Sources */,
+				2333F89B1D54741000BF4FDB /* Frameworks */,
+				2333F89C1D54741000BF4FDB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2333F85D1D546E6B00BF4FDB /* PBXTargetDependency */,
+				2333F8A01D54741000BF4FDB /* PBXTargetDependency */,
 			);
 			name = HoppyBunnyUITests;
 			productName = HoppyBunnyUITests;
-			productReference = 2333F85B1D546E6B00BF4FDB /* HoppyBunnyUITests.xctest */;
+			productReference = 2333F89E1D54741000BF4FDB /* HoppyBunnyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2333F8321D546E6A00BF4FDB /* Project object */ = {
+		2333F8731D54741000BF4FDB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "駿逸 陳";
 				TargetAttributes = {
-					2333F8391D546E6B00BF4FDB = {
+					2333F87A1D54741000BF4FDB = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					2333F84F1D546E6B00BF4FDB = {
+					2333F8921D54741000BF4FDB = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 2333F8391D546E6B00BF4FDB;
+						TestTargetID = 2333F87A1D54741000BF4FDB;
 					};
-					2333F85A1D546E6B00BF4FDB = {
+					2333F89D1D54741000BF4FDB = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 2333F8391D546E6B00BF4FDB;
+						TestTargetID = 2333F87A1D54741000BF4FDB;
 					};
 				};
 			};
-			buildConfigurationList = 2333F8351D546E6A00BF4FDB /* Build configuration list for PBXProject "HoppyBunny" */;
+			buildConfigurationList = 2333F8761D54741000BF4FDB /* Build configuration list for PBXProject "HoppyBunny" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,40 +218,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 2333F8311D546E6A00BF4FDB;
-			productRefGroup = 2333F83B1D546E6B00BF4FDB /* Products */;
+			mainGroup = 2333F8721D54741000BF4FDB;
+			productRefGroup = 2333F87C1D54741000BF4FDB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2333F8391D546E6B00BF4FDB /* HoppyBunny */,
-				2333F84F1D546E6B00BF4FDB /* HoppyBunnyTests */,
-				2333F85A1D546E6B00BF4FDB /* HoppyBunnyUITests */,
+				2333F87A1D54741000BF4FDB /* HoppyBunny */,
+				2333F8921D54741000BF4FDB /* HoppyBunnyTests */,
+				2333F89D1D54741000BF4FDB /* HoppyBunnyUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2333F8381D546E6B00BF4FDB /* Resources */ = {
+		2333F8791D54741000BF4FDB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2333F8401D546E6B00BF4FDB /* art.scnassets in Resources */,
-				2333F8701D546F7600BF4FDB /* sfx_flap.caf in Resources */,
-				2333F84A1D546E6B00BF4FDB /* LaunchScreen.storyboard in Resources */,
-				2333F8471D546E6B00BF4FDB /* Assets.xcassets in Resources */,
-				2333F8451D546E6B00BF4FDB /* Main.storyboard in Resources */,
-				2333F8711D546F7600BF4FDB /* sfx_goal.caf in Resources */,
+				2333F8811D54741000BF4FDB /* GameScene.sks in Resources */,
+				2333F88D1D54741000BF4FDB /* LaunchScreen.storyboard in Resources */,
+				2333F88A1D54741000BF4FDB /* Assets.xcassets in Resources */,
+				2333F8881D54741000BF4FDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2333F84E1D546E6B00BF4FDB /* Resources */ = {
+		2333F8911D54741000BF4FDB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2333F8591D546E6B00BF4FDB /* Resources */ = {
+		2333F89C1D54741000BF4FDB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,59 +259,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2333F8361D546E6B00BF4FDB /* Sources */ = {
+		2333F8771D54741000BF4FDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2333F8421D546E6B00BF4FDB /* GameViewController.swift in Sources */,
-				2333F83E1D546E6B00BF4FDB /* AppDelegate.swift in Sources */,
+				2333F8831D54741000BF4FDB /* GameScene.swift in Sources */,
+				2333F8851D54741000BF4FDB /* GameViewController.swift in Sources */,
+				2333F87F1D54741000BF4FDB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2333F84C1D546E6B00BF4FDB /* Sources */ = {
+		2333F88F1D54741000BF4FDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2333F8551D546E6B00BF4FDB /* HoppyBunnyTests.swift in Sources */,
+				2333F8981D54741000BF4FDB /* HoppyBunnyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2333F8571D546E6B00BF4FDB /* Sources */ = {
+		2333F89A1D54741000BF4FDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2333F8601D546E6B00BF4FDB /* HoppyBunnyUITests.swift in Sources */,
+				2333F8A31D54741000BF4FDB /* HoppyBunnyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2333F8521D546E6B00BF4FDB /* PBXTargetDependency */ = {
+		2333F8951D54741000BF4FDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2333F8391D546E6B00BF4FDB /* HoppyBunny */;
-			targetProxy = 2333F8511D546E6B00BF4FDB /* PBXContainerItemProxy */;
+			target = 2333F87A1D54741000BF4FDB /* HoppyBunny */;
+			targetProxy = 2333F8941D54741000BF4FDB /* PBXContainerItemProxy */;
 		};
-		2333F85D1D546E6B00BF4FDB /* PBXTargetDependency */ = {
+		2333F8A01D54741000BF4FDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2333F8391D546E6B00BF4FDB /* HoppyBunny */;
-			targetProxy = 2333F85C1D546E6B00BF4FDB /* PBXContainerItemProxy */;
+			target = 2333F87A1D54741000BF4FDB /* HoppyBunny */;
+			targetProxy = 2333F89F1D54741000BF4FDB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2333F8431D546E6B00BF4FDB /* Main.storyboard */ = {
+		2333F8861D54741000BF4FDB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2333F8441D546E6B00BF4FDB /* Base */,
+				2333F8871D54741000BF4FDB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2333F8481D546E6B00BF4FDB /* LaunchScreen.storyboard */ = {
+		2333F88B1D54741000BF4FDB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2333F8491D546E6B00BF4FDB /* Base */,
+				2333F88C1D54741000BF4FDB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -332,7 +320,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2333F8621D546E6B00BF4FDB /* Debug */ = {
+		2333F8A51D54741000BF4FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -378,7 +366,7 @@
 			};
 			name = Debug;
 		};
-		2333F8631D546E6B00BF4FDB /* Release */ = {
+		2333F8A61D54741000BF4FDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -417,7 +405,7 @@
 			};
 			name = Release;
 		};
-		2333F8651D546E6B00BF4FDB /* Debug */ = {
+		2333F8A81D54741000BF4FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -428,7 +416,7 @@
 			};
 			name = Debug;
 		};
-		2333F8661D546E6B00BF4FDB /* Release */ = {
+		2333F8A91D54741000BF4FDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -439,7 +427,7 @@
 			};
 			name = Release;
 		};
-		2333F8681D546E6B00BF4FDB /* Debug */ = {
+		2333F8AB1D54741000BF4FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,7 +440,7 @@
 			};
 			name = Debug;
 		};
-		2333F8691D546E6B00BF4FDB /* Release */ = {
+		2333F8AC1D54741000BF4FDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,7 +452,7 @@
 			};
 			name = Release;
 		};
-		2333F86B1D546E6B00BF4FDB /* Debug */ = {
+		2333F8AE1D54741000BF4FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -476,7 +464,7 @@
 			};
 			name = Debug;
 		};
-		2333F86C1D546E6B00BF4FDB /* Release */ = {
+		2333F8AF1D54741000BF4FDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = HoppyBunnyUITests/Info.plist;
@@ -490,40 +478,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2333F8351D546E6A00BF4FDB /* Build configuration list for PBXProject "HoppyBunny" */ = {
+		2333F8761D54741000BF4FDB /* Build configuration list for PBXProject "HoppyBunny" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2333F8621D546E6B00BF4FDB /* Debug */,
-				2333F8631D546E6B00BF4FDB /* Release */,
+				2333F8A51D54741000BF4FDB /* Debug */,
+				2333F8A61D54741000BF4FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2333F8641D546E6B00BF4FDB /* Build configuration list for PBXNativeTarget "HoppyBunny" */ = {
+		2333F8A71D54741000BF4FDB /* Build configuration list for PBXNativeTarget "HoppyBunny" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2333F8651D546E6B00BF4FDB /* Debug */,
-				2333F8661D546E6B00BF4FDB /* Release */,
+				2333F8A81D54741000BF4FDB /* Debug */,
+				2333F8A91D54741000BF4FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2333F8671D546E6B00BF4FDB /* Build configuration list for PBXNativeTarget "HoppyBunnyTests" */ = {
+		2333F8AA1D54741000BF4FDB /* Build configuration list for PBXNativeTarget "HoppyBunnyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2333F8681D546E6B00BF4FDB /* Debug */,
-				2333F8691D546E6B00BF4FDB /* Release */,
+				2333F8AB1D54741000BF4FDB /* Debug */,
+				2333F8AC1D54741000BF4FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2333F86A1D546E6B00BF4FDB /* Build configuration list for PBXNativeTarget "HoppyBunnyUITests" */ = {
+		2333F8AD1D54741000BF4FDB /* Build configuration list for PBXNativeTarget "HoppyBunnyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2333F86B1D546E6B00BF4FDB /* Debug */,
-				2333F86C1D546E6B00BF4FDB /* Release */,
+				2333F8AE1D54741000BF4FDB /* Debug */,
+				2333F8AF1D54741000BF4FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2333F8321D546E6A00BF4FDB /* Project object */;
+	rootObject = 2333F8731D54741000BF4FDB /* Project object */;
 }
